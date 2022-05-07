@@ -1,7 +1,8 @@
 ## Overview
 
 Hey  paste this  on mmakefish.sh and remove the the text of makefish which have been pasted yesterday 
-```#!/bin/bash
+```
+#!/bin/bash
 # makefish.sh
 
 # install packages if not already installed
@@ -41,10 +42,10 @@ make -j profile-build ARCH=${arch_cpu} COMP=mingw
 make strip
 mv stockfish.exe ../../stockfish_28122009
 make clean
-cd```
+cd
+```
 
 Then open msys2 and mingw and type bash makefish.sh it should work
-
 
 [![Build Status](https://github.com/official-stockfish/Stockfish/actions/workflows/stockfish.yml/badge.svg)](https://github.com/official-stockfish/Stockfish/actions)
 [![Build Status](https://ci.appveyor.com/api/projects/status/github/official-stockfish/Stockfish?branch=master&svg=true)](https://ci.appveyor.com/project/mcostalba/stockfish/branch/master)
@@ -381,3 +382,4 @@ source code, these changes must also be made available under the GPL v3.
 
 For full details, read the copy of the GPL v3 found in the file named
 [*Copying.txt*](https://github.com/official-stockfish/Stockfish/blob/master/Copying.txt).
+
