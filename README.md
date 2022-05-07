@@ -42,6 +42,7 @@ make strip
 mv stockfish.exe ../../stockfish_28122009
 make clean
 cd```
+
 Then open msys2 and mingw and type bash makefish.sh it should work
 
 
